@@ -3,9 +3,9 @@ import Section from "./Section.astro";
 import { Image } from "astro:assets";
 import type { AboutProps, HeroProps } from "@types";
 
-type Props = AboutProps & Pick<HeroProps, "name">;
+type Props = AboutProps & Pick<HeroProps, "name"> & Pick<HeroProps, "email">;
 
-const { description, image, name } = Astro.props;
+const { description, image, name, email } = Astro.props;
 ---
 
 <Section text="About Me" href="about">
@@ -23,4 +23,8 @@ const { description, image, name } = Astro.props;
       />
     </div>
   </div>
+  <a
+    class="text-sm py-5 px-8 text-[#fff] inline-block font-medium leading-5 bg-primary rounded-full"
+    href={`mailto:${email}`}>Mail me</a
+  >
 </Section>
