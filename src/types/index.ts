@@ -33,7 +33,7 @@ export interface ExperienceProps {
 export interface ProjectProps {
   name: string;
   summary: string;
-  image: string;
+  images: string[];
   linkPreview?: string;
   linkSource?: string;
 }
