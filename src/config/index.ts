@@ -1,23 +1,20 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Daniel Pombo — Software Developer",
+  author: "Daniel Pombo Ortega",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Developer with 5 years of experience in designing, developing, and maintaining robust web applications",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/dev-small.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/daniel-pombo-63a434194/" },
+    { text: "Github", href: "https://github.com/pombodaniel10" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,41 +22,40 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Daniel Pombo",
+    specialty: "Web Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Developer based in Cartagena, Colombia. I specialize in web application design, development and maintenance.",
+    email: "pombodaniel10@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Propelus",
+      position: "Fullstack developer",
+      startDate: "Mar 2020",
+      endDate: "Jun 2024",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Built new components and functionalities on the platform's website using Reacts, component-based architecture to modularize and optimize frontend codebase, facilitating easier maintenance and scalability.",
+        "Improved core platform features using Node.js, including new functionalities into APIs, developed workers to manage multiple services efficiently and integrated with databases for data management",
+        "Migrated legacy services to implement aws services to streamline server management and improve scalability, ensuring seamless transition of applications and data while optimizing performance and cost-efficiency.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "University of Cartagena",
+      position: "Research Developer",
+      startDate: "Feb 2019",
+      endDate: "Feb 2020",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Led the development of servers for data management, persistence and visualization for embedded devices using MEAN stack, with focus on the internet of things.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      company: "Caiman Labs",
+      position: "CEO",
+      startDate: "Jun 2018",
+      endDate: "",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "Development of embedded systems for research groups using devices like esp8266 and arduino. Applying OOP through C++ to make software that connect sensors to the development board and share the data collected to Internet using MQTT.",
     },
   ],
   projects: [
@@ -80,11 +76,12 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Daniel Pombo, a highly skilled and versatile Fullstack Developer with experience in designing, developing, and maintaining robust web applications. 
+      Proficient in a wide array of technologies and frameworks, with a strong emphasis on creating seamless and efficient user experiences. 
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Over the years, I've building a deep understanding of both client-side and server-side development, ensuring optimal performance and scalability of applications.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/dev-big.png",
   },
 };
 
